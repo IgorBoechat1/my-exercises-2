@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"io.codeforall.fanstatics","l":"Fan"},{"p":"io.codeforall.fanstatics","l":"Main"}];updateSearchResults();
