@@ -15,7 +15,6 @@ public class SimpleGfxGrid implements Grid {
     private final int cols;
     private final int rows;
     private int col;
-
     private int row;
 
 

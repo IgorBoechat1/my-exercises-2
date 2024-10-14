@@ -26,6 +26,7 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
         //rectangle = new Rectangle((Math.random() * simpleGfxGrid.getCols()),(Math.random() * simpleGfxGrid.getRows()),simpleGfxGrid.getCellSize(),simpleGfxGrid.getCellSize());
         //rectangle.draw();
         //rectangle.fill();
+        this.simpleGfxGrid = grid;
 
 
     }
@@ -40,7 +41,7 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
     public SimpleGfxGridPosition(int col, int row, SimpleGfxGrid grid) {
         super(col, row, grid);
         this.simpleGfxGrid = grid;
-        rectangle = new Rectangle(grid.getX(), grid.getY(), grid.getCellSize(), grid.getCellSize());
+        rectangle = new Rectangle(grid.getX(), grid.getY(), simpleGfxGrid.getCellSize(), simpleGfxGrid.getCellSize());
         setColor(GridColor.BLUE);
         show();
 
@@ -69,6 +70,8 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
      */
     @Override
     public void moveInDirection(GridDirection direction, int distance) {
+        super.moveInDirection(direction, distance);
+        this.rectangle.translate(simpleGfxGrid.columnToX(super.getCol()) - this.rectangle.getX(), simpleGfxGrid.rowToY(super.getRow()) - this.rectangle.getY());
 
     }
 
