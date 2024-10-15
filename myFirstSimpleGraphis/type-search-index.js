@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"io.codeforall.fanstatics","l":"Ball"},{"p":"io.codeforall.fanstatics","l":"ControlScheme"},{"p":"io.codeforall.fanstatics","l":"Game"},{"p":"io.codeforall.fanstatics","l":"Main"},{"p":"io.codeforall.fanstatics","l":"Player"},{"p":"io.codeforall.fanstatics","l":"Score"}];updateSearchResults();
