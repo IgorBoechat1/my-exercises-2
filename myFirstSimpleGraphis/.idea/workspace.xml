@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ee4af7f-b32f-4131-a67d-b6d8f4133618" name="Changes" comment="" />
+    <list default="true" id="2ee4af7f-b32f-4131-a67d-b6d8f4133618" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ScoreoOsCabecudos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreoOsCabecudos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/Fan.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/Fan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/io/codeforall/fanstatics/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstSimpleGraphicsProject/lib/search.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/codecadet/Documents/my-exercises1/myFirstSimpleGraphis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -38,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728405683542</updated>
       <workItem from="1728405684695" duration="1219000" />
+      <workItem from="1728996273805" duration="167000" />
     </task>
     <servers />
   </component>
