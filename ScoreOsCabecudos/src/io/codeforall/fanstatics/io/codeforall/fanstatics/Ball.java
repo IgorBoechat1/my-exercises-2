@@ -1,4 +1,5 @@
 package io.codeforall.fanstatics;
+
 import org.academiadecodigo.simplegraphics.graphics.Ellipse;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
@@ -15,14 +16,10 @@ public class Ball {
     private double velocityY;
     private Ellipse ballVisual;
 
-    private Score score;
-
     public Ball() {
         x = Game.CANVAS_WIDTH / 2;
         y = Game.CANVAS_HEIGHT / 2;
-
         ballVisual = new Ellipse(x, y, BALL_DIAMETER, BALL_DIAMETER);
-        this.score = score;
     }
 
     public double getX() {
@@ -80,62 +77,29 @@ public class Ball {
             velocityX = -velocityX * BOUNCINESS;
 
             // Check if it's a goal (crosses the goal line on the left wall)
-            if (y >= (double) Game.CANVAS_HEIGHT / 2) {
-                score.player2Scored();
-                score.text(90,90,"Goal on the left side!");
-                x = (double) Game.CANVAS_WIDTH /2;
+            if (y >= Game.CANVAS_HEIGHT / 2 + 100) {
+                System.out.println("Goal on the left side!");
+                x = Game.CANVAS_WIDTH/2;
                 y = BALL_DIAMETER;
                 setVelocity(-5, 0);
                 p1.resetPlayer();
                 p2.resetPlayer();
-                // Add any additional logic for scoring a goal
             }
         }
 
         // Check for collision with the right wall
-        if (x + BALL_DIAMETER >= Game.CANVAS_WIDTH) {
-            x = Game.CANVAS_WIDTH - BALL_DIAMETER;
+        if (x + BALL_DIAMETER >= Game.CANVAS_WIDTH + 70) {
+            x = (Game.CANVAS_WIDTH + 70) - BALL_DIAMETER;
             velocityX = -velocityX * BOUNCINESS;
 
             // Check if it's a goal (crosses the goal line on the right wall)
-            if (y >= (double) Game.CANVAS_HEIGHT / 2) {
-                score.player2Scored();
-                score.text(90,90,"Goal on the right side!");
-                x =
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        (double) Game.CANVAS_WIDTH /2;
+            if (y >= Game.CANVAS_HEIGHT / 2 + 100) {
+                System.out.println("Goal on the right side!");
+                x = Game.CANVAS_WIDTH/2;
                 y = BALL_DIAMETER;
                 setVelocity(5, 0);
                 p1.resetPlayer();
                 p2.resetPlayer();
-                // Add any additional logic for scoring a goal
             }
         }
     }

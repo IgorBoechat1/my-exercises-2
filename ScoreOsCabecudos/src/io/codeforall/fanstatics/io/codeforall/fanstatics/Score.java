@@ -1,6 +1,11 @@
+
 package io.codeforall.fanstatics;
 
 import org.academiadecodigo.simplegraphics.graphics.Text;
+import javafx.scene.media.AudioClip;
+
+import javax.print.attribute.standard.Media;
+import java.io.File;
 
 public class Score {
     private int p1Score;
@@ -8,6 +13,8 @@ public class Score {
     private final int MAX_SCORE = 3;
     Text text;
 
+
+/*
     public boolean player1Scored() {
         p1Score++;
         getPlayer1Score();
@@ -45,13 +52,13 @@ public class Score {
             text.draw();
         }
     }
-    public int getPlayer2Score() {
+    public void getPlayer2Score() {
         if (player2Scored()) {
             text = new Text(50, 50, "PLAYER 2 SCORED!");
             text.draw();
 
         }
-        return getPlayer2Score();
+
     }
 
     public Text text(int i, int i1, String s) {
@@ -59,4 +66,6 @@ public class Score {
 
 
     }
+}
+*/
 }

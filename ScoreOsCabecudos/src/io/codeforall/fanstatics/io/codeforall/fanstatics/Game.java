@@ -8,23 +8,32 @@ public class Game {
 
     Picture canvas;
     Ball ball;
-    Picture player1, player2;
     Player p1;
     Player p2;
-    Score score;
-
-
 
     public Game(){
-        canvas = new Picture(10, 10,  "/Users/igorboechat/Documents/PESSOAL/BOOTCAMP/my-exercises-2/ScoreOsCabecudos/rsc/stadium.jpg");
+        canvas = new Picture(CANVAS_WIDTH, CANVAS_HEIGHT,"rsc/stadium.png");
+        canvas.translate(-1550, -910);
+        canvas.grow(-300, 0);
         canvas.draw();
+        setupGoals();
         ball = new Ball();
-        score = new Score();
+        p1 = new Player(ControlScheme.WAD,50.0,800.0,"rsc/burger.png",-25,-25);
+        p2 = new Player(ControlScheme.ARROWS,1050.0,200.0, "rsc/pizza1.png",-25, -25);
+    }
 
+    public void setupGoals(){
+        Picture goal;
+        goal = new Picture(0,0,"rsc/baliza.png");
+        goal.grow(-50, -150);
+        goal.translate(-55, 250);
+        goal.draw();
 
+        goal = new Picture(0,0,"rsc/baliza.png");
+        goal.grow(-135, -140);
+        goal.translate(1195, 230);
+        goal.draw();
 
-        p1 = new Player(ControlScheme.WAD,50.0,500.0,"rsc/pizza1");
-      //  p2 = new Player(ControlScheme.ARROWS,1200.0,500.0 );
     }
 
     public void update(long millis) throws InterruptedException {
@@ -33,7 +42,6 @@ public class Game {
             p1.update();
             p2.update();
             ball.update(p1,p2);
-
             ball.getKickCollisionsForLeftPlayer(p1.getPlayerImage());
             ball.getKickCollisionsForRightPlayer(p2.getPlayerImage());
         }
