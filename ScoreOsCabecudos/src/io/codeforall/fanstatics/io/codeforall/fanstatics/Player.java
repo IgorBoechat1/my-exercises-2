@@ -1,7 +1,5 @@
-package io.codeforall.fanstatics;
+package io.codeforall.fanstatics;//package io.codeforall.fanstatics;
 
-
-import org.academiadecodigo.simplegraphics.graphics.Ellipse;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
@@ -9,8 +7,10 @@ import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public class Player implements KeyboardHandler {
-    private static final Integer PLAYER_WIDTH = 70;
-    private static final Integer PLAYER_HEIGHT = 30;
+    public static final Integer PLAYER_WIDTH = 70;
+    public static final Integer PLAYER_HEIGHT = 100;
+    private double initialX;
+    private double initialY;
     private double x;
     private double y;
     private double velocityX;
@@ -18,22 +18,35 @@ public class Player implements KeyboardHandler {
     private static final double GRAVITY = 0.2;
     private static final double FRICTION = 0.9;
 
-
     private final Keyboard keyboard;
-    private Ellipse playerImage;
-    private final ControlScheme controlScheme;
-    private Player input;
-    private int ellipseSize = 70;
+    private Picture playerImage;
 
-    public Player(ControlScheme controlScheme, Double x, Double y) {
+    private final ControlScheme controlScheme;
+
+    public Player(ControlScheme controlScheme, Double x, Double y, Picture playerImage) {
         this.controlScheme = controlScheme;
         this.x = x;
         this.y = y;
-        this.playerImage = new Ellipse(x, y, Player.PLAYER_WIDTH, Player.PLAYER_HEIGHT);
-        this.playerImage.fill();
+        this.initialX = x;
+        this.initialY = y;
+        this.playerImage = new Picture(PLAYER_WIDTH, PLAYER_WIDTH);
+        playerImage.draw();
         this.keyboard = new Keyboard(this);
 
         this.initKeyboard();
+    }
+
+    public double getX() {
+        return this.x;
+    }
+
+    public double getY() {
+        return this.y;
+    }
+
+    public void resetPlayer(){
+        x = initialX;
+        y = initialY;
     }
 
     private void initKeyboard() {
@@ -66,6 +79,14 @@ public class Player implements KeyboardHandler {
         jump.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
 
         this.keyboard.addEventListener(jump);
+
+        KeyboardEvent exit = new KeyboardEvent();
+
+        exit.setKey(KeyboardEvent.KEY_H);
+
+        exit.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
+
+        this.keyboard.addEventListener(exit);
     }
 
     @Override
@@ -73,20 +94,23 @@ public class Player implements KeyboardHandler {
         switch (keyboardEvent.getKey()) {
             case KeyboardEvent.KEY_RIGHT:
             case KeyboardEvent.KEY_D:
-                //playerImage.translate(50, 0);
-                this.velocityX = 5.0;
+                // playerImage.translate(50, 0);
+                this.velocityX = 15.0;
                 break;
             case KeyboardEvent.KEY_LEFT:
             case KeyboardEvent.KEY_A:
-                //playerImage.translate(-50, 0);
-                this.velocityX = -5.0;
+                // playerImage.translate(-50, 0);
+                this.velocityX = -15.0;
                 break;
             case KeyboardEvent.KEY_UP:
             case KeyboardEvent.KEY_W:
-                //playerImage.translate(0, -100);
+                // playerImage.translate(0, -100);
                 if (y == (Game.CANVAS_HEIGHT - PLAYER_HEIGHT)) {
                     this.velocityY = -10.0;
                 }
+                break;
+            case KeyboardEvent.KEY_H:
+                System.exit(0);
                 break;
         }
     }
@@ -128,8 +152,18 @@ public class Player implements KeyboardHandler {
 
     private void show() {
         playerImage.delete();
-        playerImage = new Ellipse(x, y, PLAYER_WIDTH, PLAYER_HEIGHT);
-        playerImage.fill();
+
+        playerImage = new Picture(PLAYER_WIDTH, PLAYER_HEIGHT);
+
+        playerImage.translate(x, y);
+
+        playerImage.draw();
+
+    }
+
+    public Picture getPlayerImage() {
+        return playerImage;
+
     }
 
     @Override
@@ -137,4 +171,3 @@ public class Player implements KeyboardHandler {
 
     }
 }
-
