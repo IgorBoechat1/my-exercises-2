@@ -10,6 +10,9 @@ public class Server {
     private final int PORT = 8080;
     private ArrayList<Client> list;
 
+    public Server() {
+        this.list = new ArrayList<>();
+    }
 
     public static void main(String[] args) {
         Server server = new Server();
@@ -22,6 +25,7 @@ public class Server {
             while (true) {
                 Socket clientSocket = serverSocket.accept();
                 Client clientHandler = new Client(clientSocket, list);
+                list.add(clientHandler);
                 new Thread(clientHandler).start();
                 System.out.println("Cliente conectado");
             }
