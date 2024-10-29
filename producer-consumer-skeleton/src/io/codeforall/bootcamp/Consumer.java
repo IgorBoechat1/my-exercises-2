@@ -12,7 +12,7 @@ public class Consumer implements Runnable {
     private int elementNum;
 
     /**
-     * @param queue the blocking queue to consume elements from
+     * @param queue      the blocking queue to consume elements from
      * @param elementNum the number of elements to consume
      */
     public Consumer(BQueue queue, int elementNum) {
@@ -25,7 +25,7 @@ public class Consumer implements Runnable {
         for (int i = 0; i < elementNum; i++) {
             Pizza pizza = this.queue.poll();
             try {
-                Thread.sleep(1000);
+                Thread.sleep(750);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

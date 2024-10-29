@@ -25,7 +25,7 @@ public class Producer implements Runnable {
         for (int i = 0; i < this.elementNum; i++) {
             this.queue.offer(new Pizza());
             try {
-                Thread.sleep(1000);
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

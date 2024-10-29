@@ -25,11 +25,11 @@ public class Main {
         Thread t4 = new Thread(c2);
         t4.setName("c2");
 
-        t3.start();
-        t4.start();
-
-        t1.start();
         t2.start();
+        t4.start();
+        t3.start();
+        t1.start();
+
 
     }
 

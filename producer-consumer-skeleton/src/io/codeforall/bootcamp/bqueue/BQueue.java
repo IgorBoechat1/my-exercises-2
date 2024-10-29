@@ -51,15 +51,14 @@ public class BQueue<T> {
      *
      * @return the data from the head of the queue
      */
-    public synchronized T poll()  {
+    public synchronized T poll() {
         while (this.isEmpty()) {
             try {
                 System.out.println("Where are the PIZZAS?");
                 wait(); // release the lock and block until we get interrupted
             } catch (InterruptedException e) {
+
             }
-
-
         }
         System.out.println("Yummy, delicious pizza \n");
         T data = this.queue.remove();
