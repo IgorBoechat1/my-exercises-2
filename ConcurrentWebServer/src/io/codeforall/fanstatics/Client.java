@@ -82,7 +82,7 @@ public class Client implements Runnable {
             out = new PrintWriter(socket.getOutputStream(), true);
             while (true) {
                 String message = in.readLine();
-                System.out.println("message from; "+ name + message);
+                System.out.println("message from; "+ message);
 
                 // Broadcast message to other clients
                 for (Client client : clients) {
