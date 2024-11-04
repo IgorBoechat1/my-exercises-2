@@ -65,10 +65,12 @@ public class Client implements Runnable {
     private Socket socket;
     private ArrayList<Client> clients; // List of other Client objects for communication
     private PrintWriter out;
+    private String name;
 
-    public Client(Socket socket, ArrayList<Client> clients) throws IOException {
+    public Client(Socket socket, ArrayList<Client> clients, String name) throws IOException {
         this.socket = socket;
         this.clients = clients;
+        this.name = setName(getName());
 
     }
 
@@ -80,7 +82,7 @@ public class Client implements Runnable {
             out = new PrintWriter(socket.getOutputStream(), true);
             while (true) {
                 String message = in.readLine();
-                System.out.println("message from; " + message);
+                System.out.println("message from; "+ name + message);
 
                 // Broadcast message to other clients
                 for (Client client : clients) {
@@ -95,6 +97,10 @@ public class Client implements Runnable {
             System.err.println("Error while reading from client: " + ex.getMessage());
             // Handle the exception here (e.g., close resources, exit loop)
         }
+    }
+
+    public String getName() {
+        return name;
     }
 
     private String setName(String name) {
