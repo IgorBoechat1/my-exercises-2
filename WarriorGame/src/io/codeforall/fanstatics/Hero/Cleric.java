@@ -1,8 +1,5 @@
 package io.codeforall.fanstatics;
 
-public interface Ability {
-
-    
-
+public class Cleric {
 
 }

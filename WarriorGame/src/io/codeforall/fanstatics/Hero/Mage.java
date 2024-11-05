@@ -1,5 +1,5 @@
 package io.codeforall.fanstatics;
 
-public class ShieldBlock {
+public class Mage {
 
 }
