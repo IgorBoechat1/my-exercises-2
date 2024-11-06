@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66d5199f-f7cd-4374-b431-adf5c143b437" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Libraries/prompt-view-0.2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Abilities/Fireball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Abilities/Heal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Abilities/ShieldBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Abilities/SneakAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Ability.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/AbstractAbility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Arena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Hero/Cleric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Hero/Mage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Hero/Rogue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Hero/Warrior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/codeforall/fanstatics/TurnManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Abilities/Fireball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Abilities/Heal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Abilities/ShieldBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Abilities/SneakAttack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Ability.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/AbstractAbility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Arena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Hero/Cleric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Hero/Mage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Hero/Rogue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Hero/Warrior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/fanstatics/TurnManager.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2oTF2o6TQuhuV9v9cED1UX3FeMW" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/codecadet/Documents/my-exercises1/WarriorGame",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66d5199f-f7cd-4374-b431-adf5c143b437" name="Changes" comment="" />
+      <created>1730885453486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730885453486</updated>
+      <workItem from="1730885454529" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
