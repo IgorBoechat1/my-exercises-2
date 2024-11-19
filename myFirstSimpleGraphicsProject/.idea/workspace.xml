@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60d2f82d-44ff-4c3f-ae18-e98a66abef00" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/out/production/ScoreOsCabecudos/io/codeforall/fanstatics/Score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoreOsCabecudos/src/io/codeforall/fanstatics/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Ball.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Ball.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/ControlScheme.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/ControlScheme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Score.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/Score.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/io/codeforall/fanstatics/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/jquery-ui.overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/jquery-ui.overrides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/legal/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/search-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/search-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplegraphicsv2/build/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../simplegraphicsv2/build/search.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2nASqb3QPzs4upxJSi2ZYRWmCl2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/igorboechat/Documents/PESSOAL/BOOTCAMP/my-exercises-2/myFirstSimpleGraphicsProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60d2f82d-44ff-4c3f-ae18-e98a66abef00" name="Changes" comment="" />
+      <created>1728414580240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728414580240</updated>
+      <workItem from="1728414581354" duration="4240000" />
+      <workItem from="1729112248681" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/io/codeforall/fanstatics/Fan.java</url>
+          <line>22</line>
+          <properties class="io.codeforall.fanstatics.Fan" method="initKeyboard">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -2,19 +2,21 @@ package io.codeforall.fanstatics.Airports;
 
 
 import io.codeforall.fanstatics.Pilot;
+import io.codeforall.fanstatics.Plane;
 
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "InternationalAirport")
 public class InternationalAirport extends Airport {
 
     private String airportName;
+    @OneToMany(mappedBy = "airport", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Plane> planes = new ArrayList<>();
 
-    @OneToOne
-    private Pilot pilots;
+
 
     public String getAirportName() {
         return airportName;

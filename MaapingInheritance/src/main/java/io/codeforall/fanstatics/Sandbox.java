@@ -36,25 +36,6 @@ public class Sandbox {
         em.persist(domesticAirport1);
         em.getTransaction().commit();
 
-        DomesticAirport domesticAirport2 = new DomesticAirport();
-        domesticAirport2.setAirportName("Aeroporto Internacional de Lagoa Santa");
-        em.getTransaction().begin();
-        em.persist(domesticAirport2);
-        em.getTransaction().commit();
-
-        DomesticAirport domesticAirport3 = new DomesticAirport();
-        domesticAirport3.setAirportName("Aeroporto Internacional de Cabo Frio ");
-        em.getTransaction().begin();
-        em.persist(domesticAirport3);
-        em.getTransaction().commit();
-
-        DomesticAirport domesticAirport = new DomesticAirport();
-        domesticAirport.setAirportName("JFK");
-
-        em.getTransaction().begin();
-        em.persist(domesticAirport);
-        em.getTransaction().commit();
-
 
         InternationalAirport internationalAirport = new InternationalAirport();
         internationalAirport.setAirportName("OPORTO");
