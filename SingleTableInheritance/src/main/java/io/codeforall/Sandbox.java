@@ -25,6 +25,7 @@ public class Sandbox {
 
         Pilots pilots = new Pilots();
         pilots.setName("John");
+        pilots.setLicenseType("HighWings");
 
         em.getTransaction().begin();
         em.persist(pilots);

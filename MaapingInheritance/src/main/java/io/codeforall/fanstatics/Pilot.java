@@ -1,13 +1,17 @@
-package io.codeforall;
+package io.codeforall.fanstatics;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import io.codeforall.fanstatics.Airports.Airport;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "pilots")
-public class Pilots extends Airport {
+public class Pilot extends Airport {
+
     private String pilotsName;
+
     private String licenseType;
+
 
 
     public String getName() {
@@ -26,3 +30,4 @@ public class Pilots extends Airport {
         this.licenseType = licenseType;
     }
 }
+
