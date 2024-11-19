@@ -7,39 +7,33 @@ import javax.persistence.Persistence;
 public class Sandbox {
 
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("myPersistenceUnit");
 
 // Open a new database connection by getting a new
 // entity manager from the entity manager factory
         EntityManager em = emf.createEntityManager();
 
 // Create a new entity Cadet cadet
-        Cadet cadet = new Cadet();
-        cadet.setId(1);
-        cadet.setName("Cristiano");
-        cadet.setAge(29);
+        Plane plane = new Plane();
+        plane.setName("Boeing");
+        plane.setWingType("HIGH WINGS");
+
         em.getTransaction().begin();
-        em.persist(cadet);
+        em.persist(plane);
         em.getTransaction().commit();
 
 
-// Cl
-        Address address = new Address();
-        address.setZipcode(12345);
-        address.setStreet("Main Street");
-        address.setCity("New York");
-        address.setState("NY");
+        Pilots pilots = new Pilots();
+        pilots.setName("John");
 
         em.getTransaction().begin();
-        em.persist(address);
+        em.persist(pilots);
         em.getTransaction().commit();
 
 
         em.close();
-
-// Shutdown JPA
         emf.close();
 
-    }
 
+    }
 }
