@@ -10,7 +10,6 @@ import java.util.Date;
 public abstract class Airport {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Version

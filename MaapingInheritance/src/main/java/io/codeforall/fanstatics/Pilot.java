@@ -11,14 +11,24 @@ import java.util.List;
 @Table(name = "pilots")
 public class Pilot extends Airport {
 
+    @Override
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Override
+    public Integer getId() {
+        return id;
+    }
+
     private String pilotsName;
 
     private String licenseType;
 
-    @OneToOne(mappedBy = "pilot", cascade = CascadeType.ALL, fetch = FetchType.LAZY) // Inverse side
+    @OneToOne(mappedBy = "pilots", cascade = CascadeType.ALL, fetch = FetchType.LAZY) // Inverse side
     private DomesticAirport domesticAirport;
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY) // Owning side
@@ -30,6 +40,14 @@ public class Pilot extends Airport {
 
     public void setName(String name) {
         this.pilotsName = pilotsName;
+    }
+
+    public List<Plane> getPlanes() {
+        return planes;
+    }
+
+    public void setPlanes(List<Plane> planes) {
+        this.planes = planes;
     }
 
     public String getLicenseType() {

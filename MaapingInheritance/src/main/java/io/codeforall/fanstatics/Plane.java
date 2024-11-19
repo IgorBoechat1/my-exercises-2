@@ -2,6 +2,7 @@ package io.codeforall.fanstatics;
 
 import io.codeforall.fanstatics.Airports.Airport;
 import io.codeforall.fanstatics.Airports.DomesticAirport;
+import io.codeforall.fanstatics.Airports.InternationalAirport;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -15,15 +16,29 @@ public class Plane {
     private String planeName;
     private String wingType;
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY) // Owning side
     private List<Pilot> pilots = new ArrayList<>();
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL) // Owning side
-    private DomesticAirport airport;
+    public DomesticAirport getDomesticAirport() {
+        return domesticAirport;
+    }
+
+    public void setDomesticAirport(DomesticAirport domesticAirport) {
+        this.domesticAirport = domesticAirport;
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private DomesticAirport domesticAirport;
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private InternationalAirport internationalAirport;
 
     public String getplaneName() {
         return planeName;

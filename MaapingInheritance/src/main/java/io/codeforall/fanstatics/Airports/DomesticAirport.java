@@ -8,17 +8,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "domestic_airports")
+@Table(name = "domesticAirport")
 public class DomesticAirport extends Airport {
 
     private String airportName;
+
+    @Override
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    @Id
+    private Integer id;
 
 
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY) // Owning sidee
     private Pilot pilots;
 
-    @OneToMany(mappedBy = "airport", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "domesticAirport", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Plane> planes = new ArrayList<>();
 
 
