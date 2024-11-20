@@ -2,7 +2,7 @@ package io.codeforall.fanstatics;
 
 import io.codeforall.fanstatics.Airports.Airport;
 import io.codeforall.fanstatics.Airports.DomesticAirport;
-import io.codeforall.fanstatics.Airports.InternationalAirport;
+
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -13,18 +13,19 @@ import java.util.Set;
 @Entity
 @Table(name = "planes")
 public class Plane {
+
     private String planeName;
     private String wingType;
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     @Id
     private Integer id;
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY) // Owning side
     private List<Pilot> pilots = new ArrayList<>();
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private DomesticAirport domesticAirport;
+
 
     public DomesticAirport getDomesticAirport() {
         return domesticAirport;
@@ -34,11 +35,9 @@ public class Plane {
         this.domesticAirport = domesticAirport;
     }
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    private DomesticAirport domesticAirport;
-
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    private InternationalAirport internationalAirport;
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getplaneName() {
         return planeName;

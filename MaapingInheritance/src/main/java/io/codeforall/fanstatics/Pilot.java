@@ -11,18 +11,8 @@ import java.util.List;
 @Table(name = "pilots")
 public class Pilot extends Airport {
 
-    @Override
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     @Id
     private Integer id;
-
-    @Override
-    public Integer getId() {
-        return id;
-    }
 
     private String pilotsName;
 
@@ -57,5 +47,12 @@ public class Pilot extends Airport {
     public void setLicenseType(String licenseType) {
         this.licenseType = licenseType;
     }
+
+    public void setDomesticAirport(DomesticAirport domesticAirport) {
+        this.domesticAirport = domesticAirport;
+    }
+
 }
+
+
 

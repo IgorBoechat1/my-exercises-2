@@ -21,15 +21,16 @@ public class DomesticAirport extends Airport {
     @Id
     private Integer id;
 
-
-
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY) // Owning sidee
     private Pilot pilots;
 
     @OneToMany(mappedBy = "domesticAirport", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Plane> planes = new ArrayList<>();
 
+    public void addPlane(Plane plane) {
+        this.planes.add(new Plane());
 
+    }
 
     public String getAirportName() {
         return airportName;
